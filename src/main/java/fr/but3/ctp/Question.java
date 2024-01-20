@@ -20,7 +20,6 @@ public class Question {
     String libelle;
 
     @Column(name="active")
-    @ColumnDefault("false")
     boolean active;
 
     @OneToMany(mappedBy = "question")
