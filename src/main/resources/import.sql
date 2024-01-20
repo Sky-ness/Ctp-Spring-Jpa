@@ -1,4 +1,4 @@
-insert into question(libquest) values ('Date de la bataille de Marignan ?'),('Quel est le président de la république actuel ?'), ('Qui a découvert la péniciline ?');
+insert into question(libquest,active) values ('Date de la bataille de Marignan ?',false),('Quel est le président de la république actuel ?',true), ('Qui a découvert la péniciline ?',false);
 
 insert into choix(qno,libchoix,statut) values (1,'1313',false),(1,'1414',false),(1,'1515',true),(1,'1616',false);
 insert into choix(qno,libchoix,statut) values (2,'Chirac',false),(2,'Sarkozy',false),(2,'Hollande',false),(2,'Macron',true);
